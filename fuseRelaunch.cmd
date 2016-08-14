@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol_isim_beh.exe" -prj "C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol_beh.prj" "work.protocol" "work.glbl" 

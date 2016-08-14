@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol.xst" -ofn "C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol.syr" 
