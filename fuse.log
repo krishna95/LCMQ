@@ -1,16 +1,26 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol_isim_beh.exe -prj C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol_beh.prj work.protocol work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Krishna/IOT/LCMQ/LCMQ/test_bench_multiply_b_ck_isim_beh.exe -prj C:/Users/Krishna/IOT/LCMQ/LCMQ/test_bench_multiply_b_ck_beh.prj work.test_bench_multiply_b_ck work.glbl 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol.v" into library work
+Analyzing Verilog file "C:/Users/Krishna/IOT/LCMQ/LCMQ/tag.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module protocol
+Compiling module MUX
+Compiling module MUX_ARRAY_default
+Compiling module D_FLIP_FLOP(m=163)
+Compiling module RIGHT_SHIFT
+Compiling module AND
+Compiling module AND_ARRAY_default
+Compiling module XOR_SINGLE_ARRAY
+Compiling module INNER_PRODUCT
+Compiling module D_FLIP_FLOP(m=162)
+Compiling module MULTIPLY_B_CK
+Compiling module test_bench_multiply_b_ck
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 2 Verilog Units
-Built simulation executable C:/Users/Krishna/IOT/LCMQ/LCMQ/protocol_isim_beh.exe
-Fuse Memory Usage: 25580 KB
-Fuse CPU Usage: 358 ms
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/Krishna/IOT/LCMQ/LCMQ/test_bench_multiply_b_ck_isim_beh.exe
+Fuse Memory Usage: 27124 KB
+Fuse CPU Usage: 452 ms

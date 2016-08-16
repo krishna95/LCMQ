@@ -5,10 +5,40 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\protocol.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">protocol</arg>&gt; remains a black box.
+<msg type="error" file="HDLCompiler" num="53" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 121: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not a port.
 </msg>
 
-<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 121: Module &lt;<arg fmt="%s" index="1">RIGHT_SHIFT</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 131: Module &lt;<arg fmt="%s" index="1">MULTIPLY_B_CK</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 152: Module &lt;<arg fmt="%s" index="1">tag</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 184: Module &lt;<arg fmt="%s" index="1">test_bench_d_flip_flop</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 217: Module &lt;<arg fmt="%s" index="1">test_bench_mux</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 239: Module &lt;<arg fmt="%s" index="1">test_bench_mux_array</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 274: Module &lt;<arg fmt="%s" index="1">test_bench_inner_product</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 302: Module &lt;<arg fmt="%s" index="1">test_bench_xor_gate</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 334: Module &lt;<arg fmt="%s" index="1">test_bench_xor_array</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 351: Module &lt;<arg fmt="%s" index="1">test_bench_and_array</arg>&gt; ignored due to previous errors.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\Krishna\IOT\LCMQ\LCMQ\tag.v" Line 368: Module &lt;<arg fmt="%s" index="1">testbench_xor_single_array</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Krishna/IOT/LCMQ/LCMQ/test_bench_xor_array.xst" -ofn "C:/Users/Krishna/IOT/LCMQ/LCMQ/test_bench_xor_array.syr" 
